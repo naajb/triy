@@ -1,0 +1,258 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-navbar {
+    background-color: rgb(249, 72, 146);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 10px;
+}
+
+.li-navbar {
+    list-style-type: none;
+    margin: 5px;
+    color :rgb(255, 255, 255) ;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.li-navbar:hover {
+    background-color:rgb(247, 91, 193) ;
+    transition: .1s ease-in-out;
+    transition-delay: s;
+    border-radius: 3px;
+}
+
+.container-konten {
+    background-color: rgb(255, 127, 63);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-konten{
+height: 500px;
+width: 800px;
+color: rgb(255, 255, 255);
+font-size: 30px;
+font-style: oblique;
+text-decoration: none;
+background-color:rgb(213, 190, 20);
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+border-radius: 60px;
+box-shadow: 18px 20px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 18px 20px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 20px 10px 0px rgba(0,0,0,0.75);
+}
+
+.img-konten {
+    width: 65%;
+    height: 70%;
+    border-radius: 60px;
+
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(137, 207, 253);
+    color: rgb(11, 19, 68)
+    
+}
+
+.text-footer{
+    color: blue;
+    font-size: 35px;
+}
+
+.list-all{
+    
+}
+
+.list-content {
+    background-color: rgb(255, 127, 63);
+    display: flow-root;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+   
+    font-size: 50px;
+}
+
+.container-table {
+    border: 3px solid;
+    height: 80vh;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    
+    
+}
+
+
+.thead {
+   font-size: 50px;
+   font-weight: bold;
+
+}
+
+.tr-table {
+    font-size: 80px;
+    }
+
+.tr-table:hover {
+background-color: rgb(255, 255, 255);
+
+}
+
+.td{
+    background-color: rgb(213, 190, 20);
+    text-align: center;
+    
+}
+
+.menu{
+    text-align: left;
+    
+}
+
+.list-footer{
+    background-color: rgb(137, 207, 253);
+    height: 10vh;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute; margin-left: -100px;
+    position: absolute; left: 80px; top: 1960px; 
+}
+
+.h1-footer{
+    font-size: 35px;
+}
+
+
+
+.information-body{
+
+height: 50vh;
+
+}
+
+.information-navbar{
+    background-color: aqua;
+   
+    width: 100%;
+    
+}
+
+.information-h3{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.span{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-dl{
+    font-size: 50px;
+}
+
+
+.information-h32{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.span2{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-dl2{
+    font-size: 50px;
+}
+
+.information-h33{
+    background-color: #000000;
+    height: 3vh;
+    width: 980px;
+    position: absolute; margin-left: 100px ;
+    position: absolute; left:-100px ;top:2200px ;
+    font-size: 19px;
+}
+
+.span3{
+    color: rgb(247, 255, 255);
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-table{
+    background-color: rgb(255, 255, 255);
+    position: absolute;margin-left: 230px;
+    position: absolute;left:-190px ;top:1400px ;
+    border: 5px solid white;
+    border-collapse: collapse;
+  
+  
+    height: 500px;
+    width: 900px;
+    font-size: 35px;
+   
+}
+
+.information-thead{
+  
+    
+}
+
+.information-th{
+    border-color: #fff700;
+    border: 5px solid #fff700;
+}
+
+.information-td2{
+    border-color: #fff700;
+    border: 5px solid #fff700;
+}
+
+
